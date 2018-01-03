@@ -11,9 +11,7 @@ Emitter.prototype.on = function (type, listener) {
 
 Emitter.prototype.emit = function (type) {
   if (this.events[type]) {
-    this.events[type].forEach(function(listener){
-      listener();
-    });
+    this.events[type].forEach(listener => listener());
   }
 };
 

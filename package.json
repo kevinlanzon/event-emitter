@@ -1,0 +1,23 @@
+{
+  "name": "event-emitter",
+  "version": "1.0.0",
+  "description": "event-emitter =========",
+  "main": "app.js",
+  "dependencies": {
+    "winston": "2.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinlanzon/event-emitter.git"
+  },
+  "author": "Kevin Lanzon <kevinlanzon@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinlanzon/event-emitter/issues"
+  },
+  "homepage": "https://github.com/kevinlanzon/event-emitter#readme"
+}
